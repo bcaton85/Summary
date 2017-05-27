@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Article parser",
+  "main": "httpserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "caton",
+  "license": "ISC",
+  "repository":"https://github.com/bcaton85/ArticleSentimentParser.git"
+}
