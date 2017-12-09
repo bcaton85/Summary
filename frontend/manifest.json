@@ -1,21 +1,20 @@
 {
 	"manifest_version":2,
-	"name":"truth",
+	"name":"Summary",
 	"version":"0.1",
 	"background": {
     "scripts": ["background.js"]
   },
-  "content_scripts": [
-    {
+  "content_scripts": [ {
       "matches": [
         "<all_urls>"
       ],
-      "js": ["jquery-2.1.3.min.js", "content.js"]
-    }
-  ],
+      "js": ["humane-js-master/humane.min.js","jquery-2.1.3.min.js", "content.js"],
+      "css": ["humane-js-master/themes/bigbox.css"]
+      
+    }],
 
   "browser_action":{
     "default_icon":"icon.png"
   }
-
 }
