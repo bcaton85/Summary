@@ -53,4 +53,6 @@ def analyze(summary):
 
 		
 	#Classify the summary 
-	return classifier.classify(extract_features(summary.split(), unigram_feats)) + "\n\n" + summary
+	print( classifier.classify(extract_features(summary.split(), unigram_feats)) )
+
+analyze("I hate pie")
