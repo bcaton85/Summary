@@ -54,5 +54,3 @@ def analyze(summary):
 		
 	#Classify the summary 
 	print( classifier.classify(extract_features(summary.split(), unigram_feats)) )
-
-analyze("I hate pie")
