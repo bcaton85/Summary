@@ -28,7 +28,7 @@ def analyze(summary):
 	training_docs = train_subj_docs+train_obj_docs
 	testing_docs = test_subj_docs+test_obj_docs
 
-	# Retrives only the sentences from the training document
+	# Retreives only the sentences from the training document
 	# Those sentences are then split creating a long list of individual words
 	sentim_analyzer = SentimentAnalyzer()
 	all_words = sentim_analyzer.all_words([doc for doc in training_docs])
