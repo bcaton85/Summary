@@ -5,7 +5,7 @@ client = textapi.Client("username", "password")
 
 def summarizeArticle(url):
 	summary = ""
-	print(summary)
+	print("new commit on dev")
 	summaryResponse = client.Summarize({'url': url, 'sentences_number': 4})
 	for sentence in summaryResponse['sentences']:
   		summary += "--" + sentence +"\n\n"
