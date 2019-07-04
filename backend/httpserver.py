@@ -21,7 +21,7 @@ class S(BaseHTTPRequestHandler):
     #Analyzed article is recieved and sent back
     def do_POST(self):
         self._set_headers()
-        print "in post method"
+  
         self.data_string = self.rfile.read(int(self.headers['Content-Length']))
 
         data = simplejson.loads(self.data_string)
