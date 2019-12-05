@@ -1,7 +1,7 @@
 from analyze import analyze
 from aylienapiclient import textapi
 
-client = textapi.Client("id", "key")
+client = textapi.Client("6d860f5f", "951d4533c5d65f1d97ea52d95e468cc2")
 
 def summarizeArticle(url):
 	summary = ""

@@ -28,8 +28,6 @@ def analyze(summary):
 	f.close()
 
 	#Classify the summary 
-	print "test"
-	print classifier.prob_classify(extract_features(summary.split(), unigram_feats)).prob('obj')
-	print classifier.prob_classify(extract_features(summary.split(), unigram_feats)).prob('sub')
-	return classifier.prob_classify(extract_features(summary.split(), unigram_feats))
+	return "Obj: "+ str(classifier.prob_classify(extract_features(summary.split(), unigram_feats)).prob('obj')) +" Sub:"+str(classifier.prob_classify(extract_features(summary.split(), unigram_feats)).prob('sub')) +summary
+
 	
