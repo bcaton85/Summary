@@ -19,7 +19,7 @@
   "devDependencies": {
     "canvas": ">=1.6.10",
     "nib": "^1.0.3",
-    "stylus": "^0.47.3",
+    "stylus": "^0.59.0",
     "uglify-js": "^2.4.15"
   }
 }
